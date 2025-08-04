@@ -21,7 +21,7 @@ const App = () => {
   const summarizeText = async () => {
     try {
       // const response = await fetch('http://localhost:5000/summarize', {
-        const response = await fetch("https://speech-to-text-summarization-backend.onrender.com", {
+        const response = await fetch("https://speech-to-text-summarization-backend.onrender.com/summarize", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
